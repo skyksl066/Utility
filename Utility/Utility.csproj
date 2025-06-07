@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<PackageId>Utility</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Alex Kuo</Authors>
+	<Description>提供 .NET 應用程式常用的實用工具與擴充功能，支援多種資料存取、物件映射與其他開發輔助功能。</Description>
+	<PackageTags>Utility;工具;擴充功能;資料存取;物件映射;Dapper;ORM;開發輔助;</PackageTags>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <TargetFrameworks>netcoreapp3.1;net5.0;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+	<ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Dapper" Version="[2.1.66,)" />
+  </ItemGroup>
+
+</Project>
